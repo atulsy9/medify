@@ -1,0 +1,15 @@
+.navbar-mainDiv {
+  display: flex;
+  height: 96px;
+  align-items: center;
+  justify-content: space-around;
+}
+.navBar-innerdiv {
+  font-size: 14px;
+  font-weight: 400;
+  color: var(--css-text);
+  display: flex;
+}
+.MuiTypography-root {
+  font-family: "Poppins", "sans-serif" !important;
+}
