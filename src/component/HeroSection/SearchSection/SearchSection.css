@@ -1,0 +1,21 @@
+.SearchSection-mainDiv {
+  display: flex;
+  justify-content: space-between;
+  position: relative;
+}
+
+.outerSpan-Div {
+  font-size: 56px !important;
+  font-weight: 700 !important;
+  letter-spacing: 0.02em !important;
+  display: flex;
+}
+.spanDiv {
+  color: var(--css-primary);
+  padding: 0 0 0 1rem;
+}
+
+.butttonSection {
+  padding: 12px 36px 12px 36px !important;
+  margin-top: 2rem !important;
+}

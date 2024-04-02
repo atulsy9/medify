@@ -7,14 +7,26 @@ const Navbar = () => {
     <div className="navbar-mainDiv">
       <img src={logoImage} alt="" />
       <div className="navBar-innerdiv">
-        <Typography m={2}>Find Doctors</Typography>
-        <Typography m={2}>Hospitals</Typography>
-        <Typography m={2}>Medicines</Typography>
-        <Typography m={2}>Surgeries</Typography>
-        <Typography m={2}>Software for Provider</Typography>
-        <Typography m={2}>Facilities</Typography>
+        <Typography p={1} fontSize={"14px"}>
+          Find Doctors
+        </Typography>
+        <Typography p={1} fontSize={"14px"}>
+          Hospitals
+        </Typography>
+        <Typography p={1} fontSize={"14px"}>
+          Medicines
+        </Typography>
+        <Typography p={1} fontSize={"14px"}>
+          Surgeries
+        </Typography>
+        <Typography p={1} fontSize={"14px"}>
+          Software for Provider
+        </Typography>
+        <Typography p={1} fontSize={"14px"}>
+          Facilities
+        </Typography>
         <Button variant="contained" sx={{ margin: "0.5rem" }}>
-          Login/Signup
+          My Booking
         </Button>
       </div>
     </div>

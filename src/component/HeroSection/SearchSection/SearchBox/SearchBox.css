@@ -1,0 +1,48 @@
+.searchBox {
+  position: absolute;
+  background-color: var(--css-white);
+  top: 100%;
+  /* width: 90%; */
+  /* left: 5%; */
+  height: 90%;
+  width: 100%;
+  border-radius: 15px;
+  box-shadow: 6px 6px 35px 0px #1028511c;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.searchField {
+  width: 100%;
+  display: flex;
+}
+
+.searchField-innerTextField {
+  border-radius: 8px;
+  border: 1px solid #f0f0f0;
+  background-color: #fafbfe;
+}
+.sectionMainDiv {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.heroImage {
+  width: 100%;
+  height: 120%;
+  object-fit: contain;
+}
+
+.sectioncard {
+  width: 100%;
+  border-radius: 8px;
+  background-color: #fafbfe;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  margin: 1rem;
+  padding-top: 1rem;
+}
