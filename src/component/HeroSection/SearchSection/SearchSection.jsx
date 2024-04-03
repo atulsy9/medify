@@ -2,7 +2,6 @@ import "./SearchSection.css";
 import { Box, Typography } from "@mui/material";
 import heroImage from "../../../assests/NicePng_doctor-png_336282 1.png";
 import Button from "@mui/material/Button";
-import SearchBox from "./SearchBox/SearchBox";
 
 const SearchSection = () => {
   return (
@@ -26,7 +25,6 @@ const SearchSection = () => {
         <div>
           <img src={heroImage} alt="" className="heroImage" />
         </div>
-        <SearchBox />
       </Box>
     </>
   );

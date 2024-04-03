@@ -1,17 +1,14 @@
 .searchBox {
-  position: absolute;
+  position: relative;
   background-color: var(--css-white);
-  top: 100%;
-  /* width: 90%; */
-  /* left: 5%; */
-  height: 90%;
-  width: 100%;
+  height: 20rem;
   border-radius: 15px;
   box-shadow: 6px 6px 35px 0px #1028511c;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: space-evenly;
+  z-index: 2;
 }
 
 .searchField {
