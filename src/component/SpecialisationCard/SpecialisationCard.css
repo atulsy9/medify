@@ -1,0 +1,12 @@
+.specialisationCard {
+  background-color: var(--css-white);
+  padding: 22px 40px;
+  /* width: fit-Content;
+  margin: auto; */
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  justify-content: center;
+}

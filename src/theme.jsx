@@ -18,5 +18,8 @@ export const theme = createTheme({
   },
   typography: {
     fontFamily: ["Poppins", "sans-serif"].join(","),
+    button: {
+      textTransform: "none",
+    },
   },
 });
