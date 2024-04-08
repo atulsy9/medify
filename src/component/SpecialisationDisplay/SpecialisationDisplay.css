@@ -1,0 +1,35 @@
+.SpecialistSwiper {
+  top: 0 !important;
+  margin: inherit;
+  padding: 0 !important;
+}
+
+.SpecialistMainDiv {
+  background-color: var(--css-white);
+}
+
+.SpecialistDiv {
+  background-color: var(--css-white);
+  width: 350px;
+  height: 395px;
+  overflow: hidden;
+  box-shadow: 0px 15px 55px -10px #00000017;
+}
+
+.SpecialistDiv div {
+  overflow: hidden;
+  border-radius: 250px 250px 4px 4px;
+  background: linear-gradient(144.2deg, #e1f3ff 0%, #2aa7ff 100%);
+  margin: 10px;
+  height: -webkit-fill-available;
+  text-align: -webkit-center;
+}
+
+.SpecialistDiv img {
+  padding: 0 !important;
+  height: -webkit-fill-available;
+}
+
+.swiper-wrapper {
+  margin: 5% 0 5%;
+}
