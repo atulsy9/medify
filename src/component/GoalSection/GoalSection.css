@@ -1,0 +1,30 @@
+.span {
+  color: var(--css-primary);
+}
+
+.goalCardimgMainDiv {
+  width: 50%;
+  position: relative;
+}
+
+.goalCardimgMainDiv img {
+  background-color: var(--css-white);
+  padding: 1%;
+}
+.GoalCardimg1 {
+  position: absolute;
+  width: 60%;
+  right: 10%;
+  top: -7%;
+}
+
+.GoalCardimg2 {
+  bottom: 0;
+  position: absolute;
+  width: 60%;
+}
+@media only screen and (min-width: 1440px) {
+  .GoalCardimg2 {
+    bottom: -10%;
+  }
+}
