@@ -13,6 +13,14 @@ import doctor4 from "../../assests/Specalists/doctor4.png";
 import doctor5 from "../../assests/Specalists/doctor5.png";
 
 const SpecialisationDisplay = () => {
+  const breakpoints = {
+    786: {
+      slidesPerView: 3,
+    },
+    1290: {
+      slidesPerView: 4,
+    },
+  };
   const SpecalistData = [
     { name: "Dr. Ankur Sharma", pic: doctor1, category: "Medicine" },
     { name: "Dr. Ahmad Khan", pic: doctor2, category: "Neurologist" },
@@ -20,13 +28,14 @@ const SpecialisationDisplay = () => {
     { name: "Dr. Lesley Hull", pic: doctor4, category: "Medicine" },
     { name: "doctor5", pic: doctor5, category: "Neurologist" },
   ];
+
   return (
     <Box className="SpecialistMainDiv">
       <Typography variant="h2" color="#1B3C74" textAlign={"center"} pt={8}>
         Our Medical Specialist
       </Typography>
       <Swiper
-        slidesPerView={4}
+        breakpoints={breakpoints}
         grabCursor={true}
         pagination={{
           clickable: true,
