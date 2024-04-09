@@ -5,6 +5,7 @@ import Header from "./component/Header/Header";
 import SpecialisationDisplay from "./component/SpecialisationDisplay/SpecialisationDisplay";
 import GoalSection from "./component/GoalSection/GoalSection";
 import BlogSection from "./component/BlogSection/BlogSection";
+import ReachesSection from "./component/ReachesSection/ReachesSection";
 function App() {
   return (
     <>
@@ -14,6 +15,7 @@ function App() {
       <SpecialisationDisplay />
       <GoalSection />
       <BlogSection />
+      <ReachesSection />
     </>
   );
 }
