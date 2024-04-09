@@ -34,7 +34,7 @@ const GoalSection = () => {
               Free Consultation
             </Typography>
           </Box>
-          <Typography fontSize="14px" color="#77829D" pt={1}>
+          <Typography fontSize="14px" color={"text.grey"} pt={1}>
             Consultation with the best
           </Typography>
         </Box>
@@ -48,7 +48,7 @@ const GoalSection = () => {
         <Typography color={"text.secondary"} fontSize={"48px"}>
           Patient <span className="span">Caring</span>
         </Typography>
-        <Typography color="#77829D" fontSize={"17px"} py={4}>
+        <Typography color={"text.grey"} fontSize={"17px"} py={4}>
           Our goal is to deliver quality of care in a courteous, respectful, and
           compassionate manner. We hope you will allow us to care for you and
           strive to be the first and best choice for healthcare.

@@ -4,6 +4,7 @@ import SpecialisationCard from "./component/SpecialisationCard/SpecialisationCar
 import Header from "./component/Header/Header";
 import SpecialisationDisplay from "./component/SpecialisationDisplay/SpecialisationDisplay";
 import GoalSection from "./component/GoalSection/GoalSection";
+import BlogSection from "./component/BlogSection/BlogSection";
 function App() {
   return (
     <>
@@ -12,6 +13,7 @@ function App() {
       <SpecialisationCard />
       <SpecialisationDisplay />
       <GoalSection />
+      <BlogSection />
     </>
   );
 }
