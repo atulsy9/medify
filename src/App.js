@@ -6,6 +6,7 @@ import SpecialisationDisplay from "./component/SpecialisationDisplay/Specialisat
 import GoalSection from "./component/GoalSection/GoalSection";
 import BlogSection from "./component/BlogSection/BlogSection";
 import ReachesSection from "./component/ReachesSection/ReachesSection";
+import AskedQuestion from "./component/AskedQuestion/AskedQuestion";
 function App() {
   return (
     <>
@@ -16,6 +17,7 @@ function App() {
       <GoalSection />
       <BlogSection />
       <ReachesSection />
+      <AskedQuestion />
     </>
   );
 }

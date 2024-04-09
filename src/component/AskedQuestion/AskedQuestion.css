@@ -1,0 +1,46 @@
+.askedQusMainDiv {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem 4rem;
+  align-items: center;
+  background-color: var(--css-white);
+}
+.accordianMainDiv {
+  background-image: none;
+  box-shadow: none !important;
+}
+.imageDiv {
+  position: relative;
+  padding: 3%;
+}
+
+.innerImage {
+  border: 10px solid #ffffff;
+  box-shadow: 0px 15px 55px -10px #00000017;
+}
+
+.innerImgSpanDiv {
+  width: 80px;
+  height: 80px;
+  position: absolute;
+  bottom: 41%;
+  right: 0;
+  background-color: white;
+  border-radius: 50%;
+  text-align: -webkit-center;
+  align-content: center;
+}
+
+.smileyDiv {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 222px;
+  height: 80px;
+  background-color: var(--css-white);
+  position: absolute;
+  bottom: 40%;
+  left: -6%;
+  border-radius: 8px;
+  box-shadow: 0px 15px 35px -5px #00000012;
+}
