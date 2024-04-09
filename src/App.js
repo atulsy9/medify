@@ -7,6 +7,8 @@ import GoalSection from "./component/GoalSection/GoalSection";
 import BlogSection from "./component/BlogSection/BlogSection";
 import ReachesSection from "./component/ReachesSection/ReachesSection";
 import AskedQuestion from "./component/AskedQuestion/AskedQuestion";
+import DownloadAppSection from "./component/DownloadAppSection/DownloadAppSection";
+
 function App() {
   return (
     <>
@@ -18,6 +20,7 @@ function App() {
       <BlogSection />
       <ReachesSection />
       <AskedQuestion />
+      <DownloadAppSection />
     </>
   );
 }

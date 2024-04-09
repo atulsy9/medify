@@ -1,0 +1,95 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+.innerSpanDiv {
+  color: #2aa7ff;
+}
+
+.numberOuterDiv {
+  display: flex;
+  border: 1px solid #f0f0f0;
+}
+
+.numberOuterDiv input {
+  border: none;
+  border-left: 1px solid #f0f0f0;
+  width: 50%;
+}
+.mobileNumberDiv {
+  width: 40px;
+  height: inherit;
+  color: var(--css-black);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--css-white);
+}
+
+.downloadIconDiv img {
+  padding: 20px;
+  width: 40%;
+}
+
+.logosDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.footerSection {
+  padding: 40px 135px 30px 162px;
+  background-color: #1b3c74;
+  position: relative;
+  z-index: 999;
+}
+
+.footerTextDiv {
+  font-family: "Roboto", sans-serif !important;
+  font-size: 16px !important;
+  padding: 10px;
+}
+
+.footerSectionTopDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.footerSectionBottomDiv {
+  margin-top: 4rem;
+  display: flex;
+  height: 50px;
+  align-items: flex-end;
+  border-top: 1px solid #ffffff1a;
+}
+
+.screen1 {
+  height: -webkit-fill-available;
+  position: absolute;
+  right: 0;
+  bottom: -64px;
+  z-index: 2;
+}
+
+.screen2 {
+  position: absolute;
+  right: 149px;
+  bottom: -63px;
+  height: 100%;
+  z-index: 3;
+}
+
+.screen11 {
+  position: absolute;
+  right: 0px;
+  bottom: -106px;
+  height: 29rem;
+  width: 12.5rem;
+  border-radius: 23px;
+}
+
+.screen22 {
+  position: absolute;
+  width: 170.5px;
+  bottom: -61px;
+  right: 149px;
+  border-radius: 20px;
+  z-index: 2;
+}

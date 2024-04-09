@@ -4,6 +4,11 @@
   --css-black: #121212;
   --css-white: #ffff;
   --css-text: #102851;
+  input::-webkit-outer-spin-button,
+  input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
 
   min-height: 100%;
   font-family: "Poppins", "sans-serif";
