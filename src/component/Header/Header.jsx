@@ -4,7 +4,7 @@ import HeroSection from "../HeroSection/HeroSection";
 
 const HEADERMESSAGE =
   " The health and well-being of our patients and their health care team will always be our priority, so we follow the best practices for cleanliness.";
-const Header = () => {
+const Header = ({ detailPage }) => {
   return (
     <>
       <Typography
@@ -15,7 +15,7 @@ const Header = () => {
       >
         {HEADERMESSAGE}
       </Typography>
-      <HeroSection />
+      <HeroSection detailPage={detailPage} />
     </>
   );
 };

@@ -1,0 +1,20 @@
+.navbarBottom {
+  background-image: linear-gradient(91.75deg, #2aa7ff 1.4%, #0c8ce6 100.57%);
+  position: relative;
+  z-index: 1;
+  border-radius: 0 0 16px 16px;
+}
+
+.searchDiv {
+  position: absolute;
+  background-color: var(--css-white);
+  width: 75vw;
+  height: 111px;
+  top: 179px;
+  left: 135px;
+  padding: 27px 24px 27px 24px;
+  /* gap: 29px; */
+  border-radius: 15px;
+  z-index: 2;
+  box-shadow: 6px 6px 35px 0px #1028511c;
+}

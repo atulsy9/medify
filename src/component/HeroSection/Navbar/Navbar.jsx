@@ -2,14 +2,20 @@ import "./Navbar.css";
 import logoImage from "../../../assests/logo.png";
 import { Button, Typography } from "@mui/material";
 
-const Navbar = () => {
+const Navbar = ({ detailPage }) => {
   return (
     <div className="navbar-mainDiv">
       <img src={logoImage} alt="" />
       <div className="navBar-innerdiv">
-        <Typography p={1} fontSize={"14px"}>
-          Find Doctors
-        </Typography>
+        {detailPage ? (
+          <Typography p={1} color={"text.blue"} className="onSelectDoctor">
+            Find Doctors
+          </Typography>
+        ) : (
+          <Typography p={1} fontSize={"14px"}>
+            Find Doctors
+          </Typography>
+        )}
         <Typography p={1} fontSize={"14px"}>
           Hospitals
         </Typography>

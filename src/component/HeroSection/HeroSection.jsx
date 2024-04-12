@@ -3,7 +3,14 @@ import Navbar from "./Navbar/Navbar";
 import SearchSection from "./SearchSection/SearchSection";
 import SearchBox from "./SearchSection/SearchBox/SearchBox";
 
-const HeroSection = () => {
+const HeroSection = ({ detailPage }) => {
+  if (detailPage) {
+    return (
+      <div style={{ padding: "0 10rem" }}>
+        <Navbar detailPage={detailPage} />
+      </div>
+    );
+  }
   return (
     <div style={{ padding: "0 10rem" }}>
       <Navbar />

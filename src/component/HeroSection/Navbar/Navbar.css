@@ -6,8 +6,27 @@
 }
 .navBar-innerdiv {
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 600;
   color: var(--css-text);
   display: flex;
   align-items: center !important;
+  height: 100%;
+  width: 912px;
+  justify-content: space-around;
+}
+
+.navBar-innerdiv p {
+  height: 100%;
+  align-content: center;
+  cursor: pointer;
+}
+
+/* .navBar-innerdiv p :hover {
+  cursor: pointer;
+} */
+
+.onSelectDoctor {
+  font-size: 14px !important;
+  border-bottom: 12px solid;
+  margin-bottom: -12px !important;
 }

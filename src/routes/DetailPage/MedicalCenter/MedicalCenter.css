@@ -1,0 +1,38 @@
+.cardDiv {
+  display: flex;
+  background-color: var(--css-white);
+  width: 785.56px;
+  height: 268.38px;
+  padding: 24px;
+  border-radius: 15px;
+  justify-content: space-between;
+  margin-block: 1.5rem;
+}
+
+.cardDiv Img {
+  object-fit: scale-down;
+  height: 124px;
+}
+
+.ratingSection {
+  background-color: #00a500;
+  display: flex;
+  padding: 4px 10px;
+  width: fit-content;
+  border-radius: 3.5px;
+}
+
+.cardMiddleDiv {
+  margin: 2rem 0 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.cardlastDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  margin-bottom: 1rem;
+}

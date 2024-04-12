@@ -17,6 +17,9 @@ export const theme = createTheme({
       specialistText: "#1B3C74",
       blue: "#2AA7FF",
       grey: "#77829D",
+      black: "#000000",
+      cardText: "#414146",
+      green: "#02A401",
     },
   },
   typography: {
